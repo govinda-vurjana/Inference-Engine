@@ -1,0 +1,21 @@
+# Build output
+build/
+out/
+cmake-build-*/
+
+# CMake user presets
+CMakeUserPresets.json
+
+# Models are large; keep out of git unless using Git LFS
+models/
+
+# Python virtualenv
+.venv/
+__pycache__/
+*.pyc
+
+# Editor / OS
+.vs/
+.vscode/
+.idea/
+Thumbs.db
